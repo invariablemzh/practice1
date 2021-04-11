@@ -37,7 +37,7 @@ int main(){
                     continue;
                 }
                 chosen.push_back(x);
-                call(x+1,1);//相当于calc（x+1），返回后会从case 1继续
+                call(x+1,1);//相当于calc（x+1），返回后会从case 1继续，x+1是下一步要做的，1是递归完以后要做的
                 address = 0;
                 continue;//回到while循环开头，相当于开始新的递归
             case 1:
