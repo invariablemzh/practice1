@@ -1,5 +1,6 @@
-//不会做，瞎改该出来了，具体再推一遍
+//不会做，瞎改改出来的，具体再推一遍
 //case是指递归，和call语句一起的是在同一个逻辑里的，若在递归中则是在执行递归前的相关语句
+//在switch中运用call来保存下次递归，用ret来返回，用continue来结尾每次case的结束
 
 #include <bits/stdc++.h>
 using namespace std;
